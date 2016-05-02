@@ -13,7 +13,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://derlien.com/download.php?file=DiskInventoryX</string>
 		<key>NAME</key>
-		<string>Disk Inventory X</string>
+		<string>DiskInventoryX</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -23,7 +23,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.dmg</string>
+				<string>DiskInventoryX.dmg</string>
 				<key>url</key>
 				<string>%DOWNLOAD_URL%</string>
 			</dict>

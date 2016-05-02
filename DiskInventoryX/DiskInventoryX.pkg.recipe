@@ -13,7 +13,7 @@
 		<key>BUNDLE_ID</key>
 		<string>com.derlien.DiskInventoryX</string>
 		<key>NAME</key>
-		<string>Disk Inventory X</string>
+		<string>DiskInventoryX</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -25,7 +25,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%pathname%/%NAME%.app/Contents/Info.plist</string>
+				<string>%pathname%/Disk Inventory X.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleVersion</string>
 			</dict>
@@ -52,7 +52,7 @@
 				<key>destination_path</key>
 				<string>%pkgroot%/Applications/%NAME%.app</string>
 				<key>source_path</key>
-				<string>%pathname%/%NAME%.app</string>
+				<string>%pathname%/Disk Inventory X.app</string>
 			</dict>
 			<key>Processor</key>
 			<string>Copier</string>
